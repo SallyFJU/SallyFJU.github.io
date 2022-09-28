@@ -26,18 +26,30 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.button {
+  background-color: #1c87c9;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 </style>
 </head>
 <body> 
   
     <h>Are you a cat person or a dog person?</h1>
-    <p">Click on your favorite for some music recommended!</p>
+    <p">Click on your favorite for some music recommendations!</p>
 
-    <form action="https://youtu.be/Qkuu0Lwb5EM">
+    <form action="https://youtu.be/Qkuu0Lwb5EM" method="get" target="_blank" class="button">
          <button type="submit">Dogs</button>
       </form>
                               
-    <form action="https://youtu.be/77hnBuXsAWo">
+    <form action="https://youtu.be/77hnBuXsAWo" method="get" target="_blank" class="button">
          <button type="submit">Cats</button>
       </form>
   
