@@ -5,13 +5,21 @@
 body {
   background-color:White;
 }
-h {
+h1 {
   color: Black;
   font-family: Comic Sans MS;
   font-size: 300%;
   position: fixed;
   top: 20%;
   left: 5%;
+}
+h2 {
+  color: Black;
+  font-family: Comic Sans MS;
+  font-size: 300%;
+  position: fixed;
+  top: 25%;
+  left: 10%;
 }
 p {
   color: Olive;
@@ -21,14 +29,30 @@ p {
   top: 30%;
   left: 5%;
 }
-.button {
+.button1 {
   position: absolute;
   top: 75%;
-  
+  left: 5%;
   font-family: Comic Sans MS;
   background-color: Bisque;
   border: none;
-  color: #BDB76B;
+  color: MediumAquaMarine;
+  padding: 20px 34px;
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  font-family: Comic Sans MS;
+  background-color: Bisque;
+  border: none;
+  color: MediumAquaMarine;
   padding: 20px 34px;
   text-align: center;
   
@@ -42,14 +66,15 @@ p {
 <body> 
   
     <img src="https://c4.wallpaperflare.com/wallpaper/394/477/194/animal-cat-and-dog-baby-animal-cat-wallpaper-preview.jpg" alt="cat & dog" align="right">
-    <h>Are you a cat person or a dog person?</h>
+    <h1>Are you a cat person</h1>
+    <h2>or a dog person?</h2>
     <p>Click on your favorite for some music recommendations!</p>
 
-    <form action="https://youtu.be/Qkuu0Lwb5EM" method="get" target="_blank" class="button">
+    <form action="https://youtu.be/Qkuu0Lwb5EM" method="get" target="_blank" class="button1">
          <button type="submit">Dogs</button>
       </form>
                               
-    <form action="https://youtu.be/77hnBuXsAWo" method="get" target="_blank" class="button">
+    <form action="https://youtu.be/77hnBuXsAWo" method="get" target="_blank" class="button2">
          <button type="submit">Cats</button>
       </form>
   
