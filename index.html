@@ -1,13 +1,15 @@
 <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 <p1 id="text"> </p1>
-<input top: 60%; left: 15%; type='button' id='button' value='Click here' />
+<input type='button' id='button' value='Click here' />
 
 <script>
 $(document).ready(function(){ 
  $('#button').click(function(){
- var x = $("p2").offset();
+  top: 60%;
+  left: 5%;
+  var x = $("p2").offset();
  alert("JQuery!");
- $('#text').html("JQuery!");
+ $('#text').html("Bazinga!");
  });
 });
 </script>
