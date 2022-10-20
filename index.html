@@ -6,7 +6,10 @@
 <script>
 $(document).ready(function(){ 
  $('#button').click(function(){
- $('#text').html("clicked");
+ 
+  var x = $("p").position();
+  
+  $('#text').html("clicked");
  });
 });
 </script>
