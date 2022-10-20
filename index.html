@@ -1,16 +1,12 @@
 <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 
-<p id="text"> </p>
+<p1 id="text"> </p1>
 <input type='button' id='button' value='Click here' />
 
 <script>
 $(document).ready(function(){ 
  $('#button').click(function(){
- 
-  var x = $("p").position();
-  alert("Top: " + x.top + " Left: " + x.left);
-  
-  $('#text').html("clicked");
+  $('#text').html("JQuery!");
  });
 });
 </script>
@@ -45,6 +41,14 @@ p {
   position: fixed;
   top: 40%;
   left: 5%;
+}
+ p1 {
+  color: Olive;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  position: absolute;
+  top: 60%;
+  left: 345%;
 }
 .button1 {
   position: absolute;
