@@ -5,6 +5,8 @@
 <script>
 $(document).ready(function(){ 
  $('#button').click(function(){
+ var x = $("p2").offset();
+ alert("JQuery!");
  $('#text').html("JQuery!");
  });
 });
@@ -47,17 +49,17 @@ p1 {
   font-size: 100%;
   position: absolute;
   top: 60%;
-  left: 35%;
+  left: 45%;
 }
 .button1 {
   position: absolute;
   top: 60%;
-  left: 15%;
+  left: 25%;
 }
 .button2 {
   position: absolute;
   top: 60%;
-  left: 25%;
+  left: 35%;
 }
 </style>
 </head>
